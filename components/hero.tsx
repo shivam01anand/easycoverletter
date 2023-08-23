@@ -29,32 +29,27 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Make your website <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">wonderful</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">We help you get shortlisted <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> Fast </span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-                </div>
-                <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-                </div>
+              <p className="text-xl text-gray-600 mb-4" data-aos="zoom-y-out" data-aos-delay="150">
+                Personalized ATS approved Cover Letter with just your resume and dream job link. Loved by hiring managers - ready in under 60 seconds.
+              </p>
+            </div>
+            <form className="w-full lg:w-auto mb-4 mx-auto"> {/* Added mx-auto to center the form */}
+              <div className="flex flex-col sm:flex-row justify-center items-center max-w-md mx-auto bg-white rounded-lg p-4 shadow-md">
+                <input type="email" className="form-input flex-grow appearance-none border focus:border-gray-600 rounded-l-sm px-2 py-32text-gray-700 placeholder-gray-600" placeholder="Enter your email..." aria-label="Your email…" />
+                <a className="btn text-white bg-blue-600 hover:bg-blue-700 flex-shrink-0 rounded-r-sm" href="#0">Submit</a>
               </div>
+            </form>
+            <div className="text-center mt-2">
+              <p className="text-sm text-red-500">9 slots left</p>
+            </div>
+            <div className="text-center mt-4">
+              <span className="text-lg text-gray-600 font-semibold">easycoverletter is currently in private beta. Sign up to get your invitation.</span>
             </div>
           </div>
 
-          {/* Hero image */}
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={768}
-            thumbHeight={432}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} />
-
         </div>
-
       </div>
     </section>
   )
