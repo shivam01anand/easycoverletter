@@ -31,14 +31,13 @@ export default function Hero() {
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">We help Job Applicants get <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> Shortlisted </span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-4" data-aos="zoom-y-out" data-aos-delay="150">
-                Transform your Resume into a compelling
-                <span className="font-semibold"> Cover Letter</span>,
+                Transform your Resume into a personalised
+                <span className="font-semibold"> Cover Letter </span>
                 for
                 <span className="font-semibold"> ANY job link</span>.
-                Personalized,
+                <br /> {/* This breaks the line */}
                 <span className="font-semibold"> ATS approved</span> &
-                Favored by hiring managers, our cover letters are
-                <span> Crafted </span>
+                loved by hiring managers - ready
                 in
                 <span className="font-semibold"> under 60 seconds</span>.
               </p>
