@@ -1,5 +1,4 @@
-import VideoThumb from '@/public/images/hero-image.png'
-import ModalVideo from '@/components/modal-video'
+import ContactForm from "@/components/ContactForm";
 
 export default function Hero() {
   return (
@@ -29,24 +28,25 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">We help you get shortlisted <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> Fast </span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">We help Job Applicants get <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> Shortlisted </span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-4" data-aos="zoom-y-out" data-aos-delay="150">
-                Personalized ATS approved Cover Letter with just your resume and dream job link. Loved by hiring managers - ready in under 60 seconds.
+                Transform your Resume into a compelling
+                <span className="font-semibold"> Cover Letter</span>,
+                for
+                <span className="font-semibold"> ANY job link</span>.
+                Personalized,
+                <span className="font-semibold"> ATS approved</span> &
+                Favored by hiring managers, our cover letters are
+                <span> Crafted </span>
+                in
+                <span className="font-semibold"> under 60 seconds</span>.
               </p>
             </div>
-            <form className="w-full lg:w-auto mb-4 mx-auto"> {/* Added mx-auto to center the form */}
-              <div className="flex flex-col sm:flex-row justify-center items-center max-w-md mx-auto bg-white rounded-lg p-4 shadow-md">
-                <input type="email" className="form-input flex-grow appearance-none border focus:border-gray-600 rounded-l-sm px-2 py-32text-gray-700 placeholder-gray-600" placeholder="Enter your email..." aria-label="Your email…" />
-                <a className="btn text-white bg-blue-600 hover:bg-blue-700 flex-shrink-0 rounded-r-sm" href="#0">Submit</a>
-              </div>
-            </form>
-            <div className="text-center mt-2">
-              <p className="text-sm text-red-500">9 slots left</p>
-            </div>
+            <ContactForm />
             <div className="text-center mt-4">
-              <span className="text-lg text-gray-600 font-semibold">easycoverletter is currently in private beta. Sign up to get your invitation.</span>
-            </div>
+              <span className="text-lg text-gray-600 font-semibold">easycoverletter is currently in private beta. Sign up to get your invite.</span>              
+            </div>            
           </div>
 
         </div>
