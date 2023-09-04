@@ -34,8 +34,12 @@ const ContactForm = () => {
 
             if (response.status === 200) {
                 setStatus('success');
+                console.log("succ sign up!")
+                mixpanel.track('Sign up', { 'email': formData.get('email') });
             } else {
                 setStatus('error');
+                console.log("failure in sign up!")
+                mixpanel.track('Sign up', { 'email': formData.get('email') });
             }
 
         } catch (e) {
