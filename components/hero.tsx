@@ -28,15 +28,15 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">We help Job Applicants get <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> Shortlisted </span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">We help Job applicants get <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> Shortlisted </span></h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-4" data-aos="zoom-y-out" data-aos-delay="150">
-                Transform your Resume into a personalised
+                Transform your Resume into a
                 <span className="font-semibold"> Cover Letter </span>
-                for
+                personalised for
                 <span className="font-semibold"> ANY job link</span>.
                 <br /> {/* This breaks the line */}
-                <span className="font-semibold"> ATS approved</span> &
+                <span className="font-semibold"> ATS formatted</span> &
                 loved by hiring managers - ready
                 in
                 <span className="font-semibold"> under 60 seconds</span>.
