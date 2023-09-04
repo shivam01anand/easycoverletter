@@ -1,4 +1,4 @@
-import mixpanel from 'mixpanel-browser';
+// import mixpanel from 'mixpanel-browser';
 import Head from 'next/head';
 import Hero from '@/components/hero';
 import Script from 'next/script';
