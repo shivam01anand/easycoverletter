@@ -53,7 +53,7 @@ const ContactForm = () => {
         < form className="w-full lg:w-auto mb-4 mx-auto" action={handleSubmit}> {/* Added mx-auto to center the form */}
             < div className="flex flex-col sm:flex-row justify-center items-center max-w-md mx-auto bg-white rounded-lg p-4 shadow-md" >
                 <input required autoComplete="off" name="email" id="email" type="text" className="form-input flex-grow appearance-none border focus:border-gray-600 rounded-l-sm px-2 py-32text-gray-700 placeholder-gray-600" placeholder="Enter your email" aria-label="Your email…" />
-                <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 flex-shrink-0 rounded-r-sm">Notify Me</button>
+                <button type="submit" className="btn text-white bg-blue-600 hover:bg-blue-700 flex-shrink-0 rounded-r-sm"Claim early invite</button>
             </div >
             <div>
                 {status === 'success' && <p className={styles.success_msg}> You're IN! Keep an eye on your inbox for something special.</p>}
